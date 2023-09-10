@@ -7,8 +7,3 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
   }
   nums1 = nums1.sort((a, b) => a-b);
 }
-
-/**
- * alt: to further simplify
- * for loop could be replaced with nums1.splice(m, n, ...nums2); 
- */
